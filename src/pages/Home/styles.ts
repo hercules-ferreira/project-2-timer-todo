@@ -15,8 +15,6 @@ justify-content: center;
     }
 `;
 
-
-
 export const BaseCountDownButton = styled.button`
 width: 100%;
 border: 0;

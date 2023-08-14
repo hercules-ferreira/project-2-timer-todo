@@ -3,6 +3,7 @@ import { HistoryContainer, HistoryList, Status } from "./styles";
 import { CycleContext } from "../../components/context/CyclesContext";
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
 import ptBR from "date-fns/locale/pt-BR";
+import pt from "date-fns/esm/locale/pt/index.js";
 
 export function History() {
   const { cycles } = useContext(CycleContext);
@@ -31,7 +32,7 @@ export function History() {
                     <td>
                       {formatDistanceToNow(cycle.startDate, {
                         addSuffix: true,
-                        locale: ptBR,
+                        locale: pt,
                       })}
                     </td>
                     <td>
