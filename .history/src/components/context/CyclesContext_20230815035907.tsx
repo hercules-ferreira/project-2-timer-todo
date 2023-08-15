@@ -1,10 +1,5 @@
 import { ReactNode, createContext, useReducer, useState } from "react";
-import { Cycle, cycleReducer } from "../reducers/cycles/reducers";
-import {
-  addNewCycleAction,
-  interruptCurrentCycleAction,
-  markCurrentCycleFinishedAction,
-} from "../reducers/cycles/actions";
+import { Cycle } from "../reducers/cycles";
 
 interface CreateCycleDate {
   task: string;
@@ -47,7 +42,21 @@ export function CyclesContextProvider({
   }
 
   function markCurrentCycleAsFinished() {
-    dispatch(markCurrentCycleFinishedAction());
+    dispatch({
+      type: "MARK_CURRENT_CYCLE_AS_FINISHED",
+      payload: {
+        activeCycleId,
+      },
+    });
+    // setCycles((state) =>
+    //   state.map((cycle) => {
+    //     if (cycle.id === activeCycleId) {
+    //       return { ...cycle, finishDate: new Date() };
+    //     } else {
+    //       return cycle;
+    //     }
+    //   })
+    // );
   }
 
   function createNewCycle(data: CreateCycleDate) {
@@ -60,13 +69,36 @@ export function CyclesContextProvider({
       startDate: new Date(),
     };
 
-    dispatch(addNewCycleAction(newCycle));
+    dispatch({
+      type: "ADD_NEW_CYCLE",
+      payload: {
+        newCycle,
+      },
+    });
 
     setAmountSecondsPassed(0);
   }
 
   function interruptCurrentCycle() {
-    dispatch(interruptCurrentCycleAction());
+    dispatch({
+      type: "INTERRUPT_CURRENT_CYCLE",
+      payload: {
+        activeCycleId,
+      },
+    });
+
+    // dispatch(activeCycleId);
+    // setCycles((state) =>
+    //   state.map((cycle) => {
+    //     if (cycle.id === activeCycleId) {
+    //       return { ...cycle, interruptDate: new Date() };
+    //     } else {
+    //       return cycle;
+    //     }
+    //   })
+    // );
+
+    // setActiveCycleId(null);
   }
 
   return (
