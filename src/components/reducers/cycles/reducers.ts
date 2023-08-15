@@ -52,3 +52,4 @@ export function cycleReducer(state: CyclesState, action: any) {
           return state;
   }
 }
+
