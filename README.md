@@ -20,14 +20,17 @@ Acompanhe os novos Commits das tecnologias que estou aperfeiçoando</span>
 📜 Para a confecção do site, as principais ferramentas utilizadas, foram:
 
 
-<kbd>***React***</kbd> | <kbd>***TypScript***</kbd> | <kbd>***Styled-components***</kbd> 
+<kbd>***React***</kbd> | <kbd>***TypScript***</kbd> | <kbd>***Reducer***</kbd>  | <kbd>***Styled-components***</kbd> 
+
 ```javascript
 |         Javascript            |
 | ----------------------------- | 
 | React                         |
 | TypScript                     |
-| React-router-dom              |
+| Reducer                       | 
 | Styled-components             |
+| React-router-dom              |
+| react-hook-form               | 
 | Zod                           |
 | date-fns                      |
 | immer                         |
