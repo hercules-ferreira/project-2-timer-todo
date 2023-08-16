@@ -1,7 +1,7 @@
   <img src="./src/components/img/logo.png">
 
 <h2><span style="color:blue">
-Project - Tailwind</h2>
+Project - TIMER TODO</h2>
 <h2><span style="color:blue">
 Conheça Todas etapas desse Novo projeto</span></h2>
 
@@ -20,17 +20,18 @@ Acompanhe os novos Commits das tecnologias que estou aperfeiçoando</span>
 📜 Para a confecção do site, as principais ferramentas utilizadas, foram:
 
 
-<kbd>***React***</kbd> | <kbd>***Tailwind***</kbd> | <kbd>***TypScript***</kbd> | 
-
+<kbd>***React***</kbd> | <kbd>***TypScript***</kbd> | <kbd>***Styled-components ***</kbd> 
 ```javascript
 |         Javascript            |
 | ----------------------------- | 
 | React                         |
-| Tailwind                      |
 | TypScript                     |
-| lucide-react                  |
-| Next                          |  
-
+| React-router-dom              |
+| Styled-components             |
+| Zod                           |
+| date-fns                      |
+| immer                         |
+| phosphor-react                |
 
 ```
 
