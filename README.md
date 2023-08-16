@@ -1,27 +1,77 @@
-# React + TypeScript + Vite
+  <img src="./src/components/img/logo.png">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2><span style="color:blue">
+Project - Tailwind</h2>
+<h2><span style="color:blue">
+Conheça Todas etapas desse Novo projeto</span></h2>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="icon.png" align="right" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<span style="color:blue">
+Acompanhe os novos Commits das tecnologias que estou aperfeiçoando</span>
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<h1><span style="color:blue">
+<font size=30>Índice e Etapas Construídas</font></span></h1>
+
+
+📜 Para a confecção do site, as principais ferramentas utilizadas, foram:
+
+
+<kbd>***React***</kbd> | <kbd>***Tailwind***</kbd> | <kbd>***TypScript***</kbd> | 
+
+```javascript
+|         Javascript            |
+| ----------------------------- | 
+| React                         |
+| Tailwind                      |
+| TypScript                     |
+| lucide-react                  |
+| Next                          |  
+
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+Acesso o Site pelo link:
+https://project-2-timer-todo.vercel.app/
+
+
+<h1><span style="color:blue">
+<font size=30>📋 Metas
+</font></span></h1>
+
+> :construction: Novas Versões do Site :construction:
+
+📌 [Objetivos](https://github.com/ai/size-limit#readme) aprimorar integração com o back-end- MySQL
+
+<h1><span style="color:blue">
+<font size=30>📋 License
+</font></span></h1>
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, Hercules Ferreira Ribeiro has waived all copyright and related or neighboring rights to this work.
+
+<h1><span style="color:blue">
+<font size=30>🐛 Issues</font></span></h1>
+
+Contate me através do github
+
+<h1><span style="color:blue">
+<font size=30>🚀 Contribuição
+</font></span></h1>
+
+1. Faça o _fork_ do projeto
+2. Crie uma _branch_ para sua modificação (`git checkout -b meu-novo-recurso`)
+3. Faça o _commit_ (`git commit -am 'Adicionando um novo recurso...'`)
+4. _Push_ (`git push origin meu-novo-recurso`)
+5. Crie um novo _Pull Request_
+
+**Happy coding!** :heart:
+
+ <br>
+
+[Back to top](#faqs)
