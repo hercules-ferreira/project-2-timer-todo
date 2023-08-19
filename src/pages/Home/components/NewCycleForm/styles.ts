@@ -10,8 +10,24 @@ color: ${props=> props.theme['gray-100']};
 font-size: 1.125rem;
 font-weight: bold;
 flex-wrap: wrap;
-`;
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 1rem;
+
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    font-size: 1rem;
+  }
+
+@media (max-width: 480px) {
+    font-size: 0.9;
+}
+
+@media (max-width: 400px) {
+    font-size: 0.9; 
+}
+`;
 
 const BaseInput = styled.input`
 background: transparent;
@@ -20,7 +36,7 @@ border: 0;
 border-bottom: 2px solid ${(props) => props.theme['gray-500']};
 font-weight: bold;
 font-size: 1.125rem;
-padding: 0 .5rem;
+padding: 0.5rem;
 color: ${(props)=> props.theme['gray-100']};
 
 &::placeholder{
@@ -31,10 +47,14 @@ color: ${(props)=> props.theme['gray-100']};
     border-color: ${(props) => props.theme['green-500']}
 }
 
-
+@media (max-width: 780px) {
+ 
+    &::placeholder {
+    font-size: .9rem;
+    }
+  
+  }
 `;
-
-
 
 export const TaskInput = styled(BaseInput)`
 flex: 1;
@@ -44,7 +64,7 @@ flex: 1;
 `;
 
 export const MinutesAmountInput = styled(BaseInput)`
-width: 4rem;
+width: 3rem;
 
 `;
 
